@@ -1,0 +1,13 @@
+[package]
+name = "threadpool-futures-io-copy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+threadpool = "*"
+tokio = { version = "1", features = ["full"] }
+tokio-util = { version = "0.7", features = ["compat"] }
+futures = "0.3"
+age = { version = "0.9", features = ["async"] }
+secrecy = "*"
